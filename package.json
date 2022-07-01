@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "@electron/remote": "^2.0.8",
+    "glasstron": "^0.1.1"
+  },
+  "name": "com.cot.framework.desktop",
+  "version": "1.0.0",
+  "description": "Basic desktop framework for Cot Applications",
+  "main": "index.js",
+  "devDependencies": {
+    "electron": "^19.0.4",
+    "electron-packager": "^15.5.1"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": " electron-packager . Cot-Desktop-Application-Framework --platform=win32 --icon=icon.ico --app-version=1.0.0 --overwrite --out=../build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cotzhang/Desktop-Application-Framework.git"
+  },
+  "keywords": [
+    "cot"
+  ],
+  "author": "Cot Zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cotzhang/Desktop-Application-Framework/issues"
+  },
+  "homepage": "https://github.com/cotzhang/Desktop-Application-Framework#readme"
+}
